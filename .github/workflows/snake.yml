@@ -18,6 +18,10 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: List Files
+        run: |
+          ls -alh
+          ls -alh dist
       - name: Commit and Push
         run: |
           git config --global user.name 'github-actions'
@@ -25,3 +29,4 @@ jobs:
           git add dist
           git commit -m "Generate snake game"
           git push
+        continue-on-error: true
