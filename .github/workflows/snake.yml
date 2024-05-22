@@ -29,9 +29,12 @@ jobs:
           echo "Listing files in the dist directory:"
           ls -alh dist
       - name: Commit and Push
+        env:
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
+          git remote set-url origin https://x-access-token:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/${{ github.repository }}
           git add dist
           git commit -m "Generate snake game"
           git push
