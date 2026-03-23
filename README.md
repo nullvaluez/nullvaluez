@@ -4,7 +4,7 @@
 
 <!-- Drop terminal-boot.svg into your profile repo root -->
 
-<img src="terminal-boot.svg" alt="Final Orbit Command Terminal" width="850"/>
+<img src="terminal-boot1.svg" alt="Final Orbit Command Terminal" width="850"/>
 
 <br/>
 
