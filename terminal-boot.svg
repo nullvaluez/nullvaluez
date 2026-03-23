@@ -86,12 +86,12 @@
     <!-- Welcome message -->
     <text fill="#e2e8f0" font-family="'Courier New', monospace" font-size="14" opacity="0">
       <tspan x="0" dy="148" font-weight="bold" fill="#0ff">CREW MEMBER:</tspan>
-      <tspan fill="#e2e8f0"> Byron Willamson</tspan>
+      <tspan fill="#e2e8f0"> Byron</tspan>
       <animate attributeName="opacity" values="0;1" begin="2.3s" dur="0.1s" fill="freeze"/>
     </text>
     <text fill="#e2e8f0" font-family="'Courier New', monospace" font-size="14" opacity="0">
       <tspan x="0" dy="170" font-weight="bold" fill="#0ff">RANK:</tspan>
-      <tspan fill="#e2e8f0">        Technical Solutions Architect</tspan>
+      <tspan fill="#e2e8f0">        Software Mercenary</tspan>
       <animate attributeName="opacity" values="0;1" begin="2.6s" dur="0.1s" fill="freeze"/>
     </text>
     <text fill="#e2e8f0" font-family="'Courier New', monospace" font-size="14" opacity="0">
